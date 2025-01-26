@@ -1,6 +1,7 @@
-
-hf_token = "xxx" #Put your own HF token here, do not publish it
+from mytoken import HF_MY_TOKEN
 from huggingface_hub import login
+
+hf_token = HF_MY_TOKEN #Put your own HF token here, do not publish it
 # Login directly with your Token (remember not to share this Token publicly)
 login(token=hf_token)
 

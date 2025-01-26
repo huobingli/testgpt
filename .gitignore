@@ -1,0 +1,7 @@
+mytoken.py
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.py
