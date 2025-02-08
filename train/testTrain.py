@@ -3,7 +3,7 @@ import torch
 from peft import LoraConfig, get_peft_model
 
 # 选择模型
-model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+model_name = "D:/work/gpt/model/DeepSeek-R1-Distill-Qwen-1.5B"
 
 # 加载 Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
