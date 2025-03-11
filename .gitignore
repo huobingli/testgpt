@@ -5,3 +5,5 @@ mytoken.py
 *.pyw
 *.pyz
 
+apikey.py
+.DS_Store
